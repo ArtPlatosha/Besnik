@@ -203,3 +203,34 @@ header .right .account {
 .hamb.active span.bottom {
   transform: translateY(-9px) rotate(-42deg);
 }
+
+/* mobile navigation */
+.nav-mobile {
+  width: 100%;
+  height: auto;
+  padding: 80px 50px;
+  background-color: var(--clr-primary);
+  position: fixed;
+  top: -430px;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.nav-mobile.active {
+  top: 6%;
+}
+
+.nav-mobile a {
+  color: var(--clr-text-light);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-mobile a:hover {
+  color: var(--clr-light-blue);
+}
