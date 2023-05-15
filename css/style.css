@@ -188,7 +188,7 @@ header .right .account {
   transition-property: opacity transform;
 }
 
-.hamb.active span.mid {
+.hamb span.mid {
   margin: 7px;
 }
 
@@ -200,6 +200,6 @@ header .right .account {
   opacity: 0;
 }
 
-.hamb span.bottom {
+.hamb.active span.bottom {
   transform: translateY(-9px) rotate(-42deg);
 }
