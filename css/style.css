@@ -219,6 +219,7 @@ header .right .account {
   gap: 24px;
   grid-template-columns: 1fr;
   justify-items: center;
+  transition: .3s top;
 }
 
 .nav-mobile.active {
