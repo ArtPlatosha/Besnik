@@ -17,11 +17,23 @@ header .left .nav-desktop {
 .hamb {
 	display: none;
 }
+
+/* hero title size */
+.hero .desc .title {
+	font-size: 64px;
+}
 }
 
 @media screen and (min-width: 920px) {
+	/* increase hero background image size */
+	.hero {
+		background-size: 35%;
+	}
 }
 
 @media screen and (min-width: 1280px) {
-
+	/* increase hero background image size */
+	.hero {
+		background-size: 37%;
+	}
 }
