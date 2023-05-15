@@ -7,7 +7,16 @@
 }
 
 @media screen and (min-width: 850px) {
+/* show desktop navigation */
+header .left .nav-desktop {
+	display: block;
+	display: flex;
+}
 
+/* hide hamb menu */
+.hamb {
+	display: none;
+}
 }
 
 @media screen and (min-width: 920px) {
